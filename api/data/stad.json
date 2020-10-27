@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "stadname": "Östersund",
+    "countryid": 1,
+    "population": 70532
+  },
+  {
+    "id": 2,
+    "stadname": "Krokom",
+    "countryid": 1,
+    "population": 45687
+  },
+  {
+    "id": 3,
+    "stadname": "Oslo",
+    "countryid": 2,
+    "population": 34567
+  },
+  {
+    "id": 4,
+    "stadname": "Åre",
+    "countryid": 1,
+    "population": 3456
+  },
+  {
+    "id": 5,
+    "stadname": "Reykjavik",
+    "countryid": 3,
+    "population": 435657
+  }
+]

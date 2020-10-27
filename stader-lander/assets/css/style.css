@@ -1,0 +1,59 @@
+body, html {
+  background: #222;
+  max-width: 1200px;
+  margin: auto;
+  color: #f1f1f1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.show {
+  display: block;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style: "→ " outside none;
+}
+
+ul li a {
+  display: block;
+}
+
+a {
+  color: yellow;
+}
+
+.cities {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+i:hover {
+  color: #f50057;
+}
+
+.fas {
+  color: #f50057;
+  transition: color 0.4s;
+}
+
+.country {
+  cursor: pointer;
+}
+
+label {
+  display: block;
+}
+
+.input-countries, .input-cities {
+  margin: 1rem 0 2rem;
+}
