@@ -374,10 +374,12 @@ function likedCity() {
 		if (local.length === 1) {
 			localStorage.removeItem('likedCities');
 		} else {
-			local.splice(att, 1)
-			localStorage.setItem('likedCities', JSON.stringify(local));
+			const item = likedCityId.indexOf(att);
+			if (item > -1) {
+				likedCityId.splice(item, 1);
+			}
+			localStorage.setItem('likedCities', JSON.stringify(likedCityId));
 		}
-		//localStorage.setItem('likedCities', JSON.stringify(likedCities));
 	}
 }
 
